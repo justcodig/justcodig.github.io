@@ -224,13 +224,14 @@ background-size: cover;
 /* stack */
 .stack_top{
     background-color: #0033e470;
-    height: 100vh; /* 섹션 높이 설정 */
+    height: 100%; 
+    padding: 2rem;
 }
 
 .stack_content_top{
     width: 100%;
-    max-width: 71.25rem;
-    padding: 7rem 1.5rem;
+    max-width: 70.25rem;
+    padding: 2rem 0.5rem 0;
     margin:0 auto;
 }
 
@@ -272,23 +273,23 @@ background-size: cover;
     color:transparent;
 }
 
+
 .stack_texts_top_of_top{
     display: flex;
-    flex-wrap: wrap;
-    padding: 7rem 8.5rem;
-    margin: 0 auto;
-    gap: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.0rem;
+    margin: 1rem 3rem;
     background-color: hsla(0, 0%, 100%, .9);
     border-radius: 1rem;
     box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,0.2);
 }
-
 .stack_texts_gap{
     column-gap: 3rem;
     display: flex;
     width: 100%;
-    max-width: 14rem;
-    margin: 0 auto;
+    max-width: 3rem;
+    margin: 0 1rem;
     opacity: .8;
     flex-wrap: nowrap;
 }
@@ -298,6 +299,13 @@ background-size: cover;
     width: 2rem;
     height: 2rem;
     margin-top: .2rem;
+}
+.stack_label{
+    margin: 0 -3rem 0 0;
+    width: 20%;
+}
+.stack_text_label{
+    width: 100%;
 }
 .stack_HTML5label_top{
 background-color: #ff7d00;
@@ -594,6 +602,8 @@ font-size: .875rem;
     font-weight: bold;
     cursor: pointer;
 }
+
+
 .footer_fot{
     padding: 3rem 0;
     background-color: #000000;
